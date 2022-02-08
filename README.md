@@ -71,9 +71,13 @@ ruby parser.rb (or with argument - file name)
 - removal of duplication
 - DRY
 
-## Step 5 - Final testing
+## Step 5 - Final testing and clean up
 
 ### rspec
 
 - 100% coverage
 - passing tests
+
+### rubocop
+
+- clean up
