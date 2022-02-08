@@ -13,6 +13,14 @@ class Parser
     visits.sort_by(&:last).reverse # sort links by amount of visits in reverse order
   end
 
+  def number_of_unique_visits  # method takes argument and returns value
+    visits = Hash.new(0) # stores processed visitors
+    @log.uniq { |ip| ip.values }.each do |line| 
+      line.each { |link| visits[link.first] += 1 }  # counts amount of visits and store them in hash
+    end
+    visits.sort_by(&:last).reverse # sort links by amount of visits in reverse order
+  end
+
   def load_file(filename = nil)
     filename ||= ARGV.first # takes first argument from the command line
     filename ||= "webserver.log" # assign default file name if it isn't given

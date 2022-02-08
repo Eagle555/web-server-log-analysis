@@ -26,7 +26,7 @@ irb -r ./analysis.rb
 ```
 ### Running in command line
 ```
-ruby parser.rb
+ruby parser.rb (or with argument - file name)
 ```
 
 ## Step 1 - Start
@@ -57,6 +57,8 @@ ruby parser.rb
 
 - load file (accept argument)
 - store file content into array
+- method to count the number of visits and return in descending order
+- method to count the unique number of visits and return in descending order
 
 ### condition
 
