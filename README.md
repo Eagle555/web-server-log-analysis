@@ -63,3 +63,17 @@ ruby parser.rb (or with argument - file name)
 ### condition
 
 - check if file exist (assign default)
+
+## Step 4 - Code refactoring
+
+### methods
+
+- removal of duplication
+- DRY
+
+## Step 5 - Final testing
+
+### rspec
+
+- 100% coverage
+- passing tests
