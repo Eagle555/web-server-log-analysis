@@ -39,3 +39,25 @@ ruby parser.rb
 ### information
 
 - readme file creation
+
+## Step 2 - Tests creation stage (TDD)
+
+### Rspec
+
+- spec tests creation 
+- create webserver log test file (mock)
+
+### Coverage 
+
+- include SimpleCov for test coverage
+
+## Step 3 - Code writing (OOD) - solution
+
+### methods
+
+- load file (accept argument)
+- store file content into array
+
+### condition
+
+- check if file exist (assign default)
