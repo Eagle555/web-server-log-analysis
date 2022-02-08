@@ -31,12 +31,12 @@ ruby parser.rb (or with argument - file name)
 
 ## Step 1 - Start
 
-### initialisation
+### Initialisation
 
 - git, bundle and rspec initialisation
 - folder tree and files
 
-### information
+### Information
 
 - readme file creation
 
@@ -53,31 +53,31 @@ ruby parser.rb (or with argument - file name)
 
 ## Step 3 - Code writing (OOD) - solution
 
-### methods
+### Methods
 
 - load file (accept argument)
 - store file content into array
 - method to count the number of visits and return in descending order
 - method to count the unique number of visits and return in descending order
 
-### condition
+### Condition
 
 - check if file exist (assign default)
 
 ## Step 4 - Code refactoring
 
-### methods
+### Methods
 
 - removal of duplication
 - DRY
 
 ## Step 5 - Final testing and clean up
 
-### rspec
+### Rspec
 
 - 100% coverage
 - passing tests
 
-### rubocop
+### Rubocop
 
 - clean up
